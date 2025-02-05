@@ -22,7 +22,7 @@ int main(){
         //ask user column number
         cout<<"Enter the column number: ";
         cin>>column;
-
+        // we take ships data type as bool so we will check with if condition
         if(ships[row][column]){
             ships[row][column]=0;
             hits++;
